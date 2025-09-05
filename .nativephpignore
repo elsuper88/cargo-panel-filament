@@ -1,0 +1,100 @@
+# Vendor packages that are not needed in production
+vendor/doctrine/
+vendor/egulias/
+vendor/filp/
+vendor/guzzlehttp/
+vendor/hamcrest/
+vendor/league/
+vendor/monolog/
+vendor/myclabs/
+vendor/nesbot/
+vendor/nette/
+vendor/nikic/
+vendor/nunomaduro/
+vendor/phar-io/
+vendor/phpoption/
+vendor/psr/
+vendor/ralouphie/
+vendor/ramsey/
+vendor/sebastian/
+vendor/spatie/
+vendor/symfony/
+vendor/theseer/
+vendor/tijsverkoyen/
+vendor/vlucas/
+vendor/voku/
+vendor/webmozart/
+
+# Development and test files
+tests/
+phpunit.xml
+.env.example
+.env.testing
+.editorconfig
+.eslintrc.js
+.prettierrc
+.styleci.yml
+
+# Build and cache files
+build/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+storage/app/public/
+
+# Database development files
+database/factories/
+database/seeders/
+
+# Frontend assets (not needed for mobile)
+resources/css/
+resources/js/
+public/build/
+public/css/
+public/js/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.md
+*.txt
+*.yml
+*.yaml
+*.lock
+*.log
+*.cache
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*.swn
+*.sublime-*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+docker-compose.yml
+Dockerfile
+docker/
+
+# Deployment
+deploy/
+scripts/
+docs/
+documentation/

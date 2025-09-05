@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fix para dropdowns en NativePHP/Electron */
+.fi-dropdown-panel {
+    display: none !important;
+}
+
+.fi-dropdown-panel[data-state="open"] {
+    display: block !important;
+}
+
+/* Forzar estado cerrado por defecto */
+.fi-dropdown-panel:not([data-state="open"]) {
+    display: none !important;
+}
+
+/* Fix específico para menús de acciones en tablas */
+.fi-ta-actions-dropdown .fi-dropdown-panel {
+    display: none !important;
+}
+
+.fi-ta-actions-dropdown[data-state="open"] .fi-dropdown-panel {
+    display: block !important;
+}
+
+/* Fix para filtros */
+.fi-fo-select-dropdown .fi-dropdown-panel {
+    display: none !important;
+}
+
+.fi-fo-select-dropdown[data-state="open"] .fi-dropdown-panel {
+    display: block !important;
+}
+
+/* Fix para menús de navegación */
+.fi-sidebar-group .fi-dropdown-panel {
+    display: none !important;
+}
+
+.fi-sidebar-group[data-state="open"] .fi-dropdown-panel {
+    display: block !important;
+}
